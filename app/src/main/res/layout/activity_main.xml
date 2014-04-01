@@ -27,7 +27,8 @@
         android:layout_below="@+id/btnMenu"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:onClick="abrirPromocion" />
 
     <Button
         android:layout_width="match_parent"

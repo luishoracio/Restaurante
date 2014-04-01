@@ -16,4 +16,12 @@
         android:layout_centerHorizontal="true"
         android:contentDescription="Imagen de la promocion" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bisonte" />
+
 </RelativeLayout>

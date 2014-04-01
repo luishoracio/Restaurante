@@ -29,14 +29,7 @@ public class MainActivity extends ActionBarActivity {
                 startActivity(intent);
             }
         });
-        btnPromocion.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),
-                        PromoActivity.class);
-                startActivity(intent);
-            }
-        });
+
         btnSucursales.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -45,6 +38,13 @@ public class MainActivity extends ActionBarActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    public void abrirPromocion(View view){
+
+        Intent intent = new Intent(getApplicationContext(),
+                PromoActivity.class);
+        startActivity(intent);
     }
 
     public void cambiarActividad(){
